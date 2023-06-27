@@ -37,7 +37,7 @@ Ver4:
 Ver5:
 - changed structure of program to separate files with imports to main program
 - few pep 8 and code clean ups
-- added small comments for explanation of every function
+- added small comments for explanation of every function 
 
 
 
