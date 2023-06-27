@@ -1,0 +1,48 @@
+Ver1:
+
+Simple calculator with full functionality of calculating with basic operators
+
+functionalities:
+
+- input of two numbers and operator with input error check
+- Calculating with operators such as +, -, *, /, square root, square number
+- helping function for more information
+- restart function to check if the user wants to do another calculation
+- main program to run functionalities
+
+Ver2:
+- taken out redundand while loop in input function
+
+Ver2.1:
+- split input function into separate functions for input first number, operator and second number
+- extract operator condition for second number to main programm to check if second number is needed (note need if operator is "*/")
+- added seperate input functions to their own variables to be used for printing out calculation result
+- added simple commentary for functions
+
+
+Ver3:
+- added calc_exit() function to allow closing program during run
+- added condition that calls calc_exit() function when entering "exit" during input
+
+Ver3.1:
+- simplyfied print of calculation result by having the input results calculate inside of print function 
+	without saving parameters inside an extra variable
+
+
+Ver4:
+- added .is_integer() function to run calculation as float but print out as integer if result is a whole number
+- changed structure of input loops from "variable is None" to "while True"
+- added .lstrip("-") function to accept minus signs in user input
+
+Ver5:
+- changed structure of program to separate files with imports to main program
+- few pep 8 and code clean ups
+- added small comments for explanation of every function
+
+
+
+
+
+
+
+
